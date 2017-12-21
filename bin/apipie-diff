@@ -1,0 +1,4 @@
+#! /usr/bin/env ruby
+
+require 'apipie_diff'
+exit ApipieDiff::MainCmd.run(File.basename($0), ARGV) || 0
