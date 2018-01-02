@@ -30,6 +30,6 @@ Options:
 
 ```
 curl -k https://$VERSION_01_HOSTNAME/apidoc.json > api_0.1.json
-curl -k https://$VERSION_01_HOSTNAME/apidoc.json > api_0.2.json
+curl -k https://$VERSION_02_HOSTNAME/apidoc.json > api_0.2.json
 apipie-diff api_0.1.json api_0.2.json
 ```
